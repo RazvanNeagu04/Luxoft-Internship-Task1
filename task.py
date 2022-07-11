@@ -16,4 +16,4 @@ from webdriver_manager.chrome import ChromeDriverManager
 session = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 session.get(url="https://www.luxoft.com")
 
-time.sleep(5)
+time.sleep(10)
